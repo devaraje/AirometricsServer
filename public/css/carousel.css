@@ -227,23 +227,3 @@ background-color: #E46653;
 .footer-text-color {
   color: #FFFFFF;
 }
-
-/* unvisited link */
-a:link {
-    color: #000000;
-}
-
-/* visited link */
-a:visited {
-    color: #000000;
-}
-
-/* mouse over link */
-a:hover {
-    color: #74C390;
-}
-
-/* selected link */
-a:active {
-    color: #337ab7;
-}
