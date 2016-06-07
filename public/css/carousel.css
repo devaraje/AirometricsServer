@@ -1,0 +1,249 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-top: 40px;
+  /*padding-bottom: 40px;*/
+  color: #5a5a5a;
+  /*color: #74C390;*/
+  background-color: #FFFFFF;  
+}
+
+h2, .span-color {
+  color: #337ab7;
+}
+
+footer {
+  /*background-color: #51BCE8;*/
+  background-color: #337ab7;
+  color: #FFFFFF;
+  padding: 5em;
+  width: 100%;
+}
+
+.nav-font {
+  font-family: 'Josefin Sans', sans-serif;
+  /*font-family: 'Abril Fatface', cursive;*/
+  font-weight: 400;
+  font-size: 2.5em;
+  text-transform: full-width;
+  text-decoration: none;
+}
+
+.carousel-font {
+  font-family: 'Josefin Sans', sans-serif;
+  /*font-family: 'Limelight', cursive;*/
+  /*font-family: 'Abril Fatface', cursive;*/
+  font-weight: 400;
+  font-size: 1.5em;
+  text-decoration: none;
+  
+}
+
+.featurette-font {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+table {
+  border-spacing: 2em;
+}
+
+.custom-pad {
+  padding-top: 2em;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+  background-color: #FFFFFF;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  /*height: 500px;*/
+  height: auto;
+  width: 100%;
+  margin-bottom: 60px;
+  background-color: #E46653;
+  display:inline-block;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  color: #FFFFFF;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #E46653;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+/*.carousel-inner > .item > img{
+height:auto!important;
+position:relative!important;
+min-width: 100%;
+background-color: #E46653;
+}
+.carousel .item{
+overflow:hidden!important;
+height:auto;
+background-color: #E46653;
+}
+.carousel-inner {
+position: relative;
+width: 100%;
+overflow: hidden;
+background-color: #E46653;
+}*/
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+ /* .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }*/
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+  
+ /*.nav-font {
+    font-size: .75em;
+  }*/
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+  
+  /* Makes images fully responsive */
+
+/*.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  width: 100%;
+  height: auto;
+}*/
+  
+}
+
+.footer-text-color {
+  color: #FFFFFF;
+}
+
+/* unvisited link */
+a:link {
+    color: #000000;
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+}
+
+/* mouse over link */
+a:hover {
+    color: #74C390;
+}
+
+/* selected link */
+a:active {
+    color: #337ab7;
+}
